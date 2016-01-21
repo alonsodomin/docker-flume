@@ -2,8 +2,8 @@
 
 set -e
 
-FLUME_CONF_DIR=${FLUME_CONF_DIR:-/opt/flume/conf}
-FLUME_CONF_FILE=${FLUME_CONF_FILE:-/opt/flume/conf/flume-conf.properties}
+FLUME_CONF_DIR=${FLUME_CONF_DIR:-/opt/lib/flume/conf}
+FLUME_CONF_FILE=${FLUME_CONF_FILE:-/opt/lib/flume/conf/flume-conf.properties}
 
 [[ -z "${FLUME_AGENT_NAME}" ]] && { echo "FLUME_AGENT_NAME required"; exit 1; }
 
